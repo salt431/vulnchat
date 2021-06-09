@@ -29,3 +29,4 @@ def changelog():
 	return render_template('changelog.html')
 
 web_site.run(port=8080)
+web_site.run(threaded=True)
